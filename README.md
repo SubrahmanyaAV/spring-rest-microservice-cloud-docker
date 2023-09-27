@@ -2,4 +2,4 @@
 
 This is from in28minutes
 
-[https://github.com/in28minutes/spring-microservices-v3]
+https://github.com/in28minutes/spring-microservices-v3
