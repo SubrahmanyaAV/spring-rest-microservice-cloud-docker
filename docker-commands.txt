@@ -1,0 +1,144 @@
+ docker --version
+
+ docker run in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker run -p 5000:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker run -p 5000:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker logs 63b2aa54cf07a88010dfdfb9ca8d3bbe1a03c3ef34fc60ed11f3bd2d9f71eec6
+
+ docker logs 63b2
+
+ docker logs -f 63b2
+
+ clear
+
+ docker container ls
+
+ docker run -p 5001:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+ 
+ docker logs -f d35
+
+ docker container ls
+
+ docker image
+
+ docker images
+
+ docker container ls -a
+
+ docker container ls -a
+
+ docker container stop d3561
+
+ docker container stop 63b2
+
+ docker container ls
+
+ docker container ls -a
+____________________________________________
+
+ docker images
+
+ docker tag in28min/todo-rest-api-h2:1.0.0.RELEASE in28min/todo-rest-api-h2:latest
+
+ docker images
+
+ docker image history 9d05dd98f4a4
+
+ docker image inspect 9d05dd98f4a4
+
+ docker container run -p 5000:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker container pause 3176
+
+ docker logs -f 3176
+
+ docker container unpause 3176
+
+ docker container inspect
+
+ docker container inspect 3176
+
+ docker container ls -a
+
+ docker container stop
+
+ docker container stop 3176
+
+ docker container ls -a
+
+ docker container run -p 5000:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker container ls
+
+ docker container ls -a
+
+ docker container prune
+
+ docker container ls -a
+
+ docker container logs -f 81aa
+
+ docker container stop
+
+ docker container ls -a
+
+ docker container stop 81a
+
+ docker container ls
+
+ docker container prune
+
+ docker container ls
+
+ docker images
+
+ docker container run -p 5000:5000 -d --restart=always in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker container stop c429
+
+ docker container prune
+
+ docker container ls
+
+ docker events
+
+ docker container run -p 5000:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker container stop bfc8
+
+ docker container ls
+
+ docker container ls -a
+
+ docker events
+
+ docker events
+
+ docker top bfc8
+
+ docker container run -p 5000:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+ docker events
+
+ docker top bcd9
+
+ docker events bcd9
+
+ docker events
+
+ docker stats
+
+ docker system df
+
+ docker run -p 9411:9411 openzipkin/zipkin:2.23
+
+ docker run -p 8000:8000 subrahmanyaav/first-currency-exchange-service:0.0.1-SNAPSHOT
+
+ docker-compose --version
+
+ docker-compose up
+
+ history
